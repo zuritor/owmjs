@@ -11,9 +11,9 @@ A small Nodejs wrapper for some OpenWeatherMap APIs. For more information about 
 
 ## Covered OpenWeatherMap APIs
 
-* [Current weather data](https://github.com/zuritor/jikanjs/blob/master/current-weather-data#)
-* [forecast](https://github.com/zuritor/jikanjs/blob/master/readme.md#forecast)
-* [UV Index ](https://github.com/zuritor/jikanjs/blob/master/readme.md#uv-index)
+* [Current weather data](https://github.com/zuritor/owmjs#current-weather-data)
+* [forecast](https://github.com/zuritor/owmjs#forecast)
+* [UV Index](https://github.com/zuritor/owmjs#uv-index)
 
 ## Usage
 
