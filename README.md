@@ -33,7 +33,7 @@ owmjsInstance.current
 #### ByCityName
 
 | Parameter | Type | Description |
-| --- | --- | --- | --- |
+| --- | --- | --- |
 | name | String | e.g. Cologne, London, New York, Tokyo |
 | country | String | optional; ISO 3166 country codes. e.g. uk |
 
@@ -50,7 +50,7 @@ owmjsInstance.current.ByCityName("Cologne").then(function (data) {
 #### ByCityID
 
 | Parameter | Type | Description |
-| --- | --- | --- | --- |
+| --- | --- | --- |
 | id | Number | visit http://bulk.openweathermap.org/sample/ for all city ids |
 
 Example: 
@@ -66,7 +66,7 @@ owmjsInstance.current.ByCityID(2172797).then(function (data) {
 #### ByGeographicCoordinates
 
 | Parameter | Type | Description |
-| --- | --- | --- | --- |
+| --- | --- | --- |
 | lat | Number | latitude |
 | lon | Number | longitude |
 
@@ -83,7 +83,7 @@ owmjsInstance.current.ByGeographicCoordinates(35, 139).then(function (data) {
 #### ByZipCode
 
 | Parameter | Type | Description |
-| --- | --- | --- | --- |
+| --- | --- | --- |
 | zip | Number | |
 | country | String | optional; ISO 3166 country codes. e.g. uk |
 
@@ -100,7 +100,7 @@ owmjsInstance.current.ByZipCode(94040).then(function (data) {
 #### ByRectangleZone
 
 | Parameter | Type | Description |
-| --- | --- | --- | --- |
+| --- | --- | --- |
 | lonleft | Number | longitude Left |
 | latbottom | Number | latitude Bottom |
 | lonright | Number | longitude Right |
@@ -121,7 +121,7 @@ owmjsInstance.current.ByRectangleZone(12,32,15,37,10).then(function (data) {
 #### ByCircle
 
 | Parameter | Type | Description |
-| --- | --- | --- | --- |
+| --- | --- | --- |
 | lat | Number | latitude |
 | long | Number | longitude |
 | cnt | Number | optional |
@@ -140,7 +140,7 @@ owmjsInstance.current.ByCircle(55.5, 37.5).then(function (data) {
 #### MultipleCity
 
 | Parameter | Type | Description |
-| --- | --- | --- | --- |
+| --- | --- | --- |
 | cities | Number[] | list of city ids |
 
 Example: 
@@ -164,7 +164,7 @@ owmjsInstance.forecast
 #### ByCityName
 
 | Parameter | Type | Description |
-| --- | --- | --- | --- |
+| --- | --- | --- |
 | name | String | e.g. Cologne, London, New York, Tokyo |
 | country | String | optional; ISO 3166 country codes. e.g. uk |
 | cnt | Number | optional; Number of days |
@@ -182,7 +182,7 @@ owmjsInstance.forecast.ByCityName('London', 'uk', 2).then(function (data) {
 #### ByCityID
 
 | Parameter | Type | Description |
-| --- | --- | --- | --- |
+| --- | --- | --- |
 | id | Number | visit http://bulk.openweathermap.org/sample/ for all city ids |
 | cnt | Number | optional; Number of days |
 
@@ -199,7 +199,7 @@ owmjsInstance.forecast.ByCityID(2172797, 2).then(function (data) {
 #### ByGeographicCoordinates
 
 | Parameter | Type | Description |
-| --- | --- | --- | --- |
+| --- | --- | --- |
 | lat | Number | latitude |
 | lon | Number | longitude |
 | cnt | Number | optional; Number of days |
@@ -217,7 +217,7 @@ owmjsInstance.forecast.ByGeographicCoordinates(35, 139, 2).then(function (data) 
 #### ByZipCode
 
 | Parameter | Type | Description |
-| --- | --- | --- | --- |
+| --- | --- | --- |
 | zip | Number | |
 | country | String | optional; ISO 3166 country codes. e.g. uk |
 | cnt | Number | optional; Number of days |
@@ -245,7 +245,7 @@ owmjsInstance.uv
 Gives the current UV Index of the given Geographic Coordinates back
 
 | Parameter | Type | Description |
-| --- | --- | --- | --- |
+| --- | --- | --- |
 | lat | Number | latitude |
 | lon | Number | longitude |
 
@@ -264,7 +264,7 @@ owmjsInstance.uv.CurrentByGeographicCoordinates(37.75, -122.37).then(function (d
 Gives UV Index forecast of the given Geographic Coordinates back
 
 | Parameter | Type | Description |
-| --- | --- | --- | --- |
+| --- | --- | --- |
 | lat | Number | latitude |
 | lon | Number | longitude |
 | cnt | Number | optional; Number of days |
@@ -284,7 +284,7 @@ owmjsInstance.uv.ForecastByGeographicCoordinates(37.75, -122.37, 2).then(functio
 Gives historcle UV Index date of the given Geographic Coordinates back
 
 | Parameter | Type | Description |
-| --- | --- | --- | --- |
+| --- | --- | --- |
 | lat | Number | latitude |
 | lon | Number | longitude |
 | start | Number | start point as Unix Time |
