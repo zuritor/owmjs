@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/zuritor/owmjs.svg?branch=master)](https://travis-ci.org/zuritor/owmjs)                 
+[![Known Vulnerabilities](https://snyk.io/test/github/zuritor/owmjs/badge.svg?targetFile=package.json)](https://snyk.io/test/github/zuritor/owmjs?targetFile=package.json)
+
 owmjs
 =======
 
