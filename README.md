@@ -1,5 +1,4 @@
-[![Build Status](https://travis-ci.org/zuritor/owmjs.svg?branch=master)](https://travis-ci.org/zuritor/owmjs)                 
-[![Known Vulnerabilities](https://snyk.io/test/github/zuritor/owmjs/badge.svg?targetFile=package.json)](https://snyk.io/test/github/zuritor/owmjs?targetFile=package.json)
+[![Build Status](https://travis-ci.org/zuritor/owmjs.svg?branch=master)](https://travis-ci.org/zuritor/owmjs) [![Coverage Status](https://coveralls.io/repos/github/zuritor/owmjs/badge.svg?branch=master)](https://coveralls.io/github/zuritor/owmjs?branch=master) [![Known Vulnerabilities](https://snyk.io/test/github/zuritor/owmjs/badge.svg?targetFile=package.json)](https://snyk.io/test/github/zuritor/owmjs?targetFile=package.json)
 
 owmjs
 =======
